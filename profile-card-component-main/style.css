@@ -1,0 +1,153 @@
+@font-face{
+    font-family: kumbhsansBold;
+    src: url("ttf/KumbhSans-Bold.ttf");
+}
+
+@font-face{
+    font-family: kumbhsansLight;
+    src: url("ttf/KumbhSans-Light.ttf");
+}
+
+@font-face{
+    font-family: kumbhsansRegular;
+    src: url("ttf/KumbhSans-Regular.ttf");
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg"); 
+    background-repeat: no-repeat;
+    background-position: -298px -450px, 715px 450px;
+    font-family: kumbhsansRegular;
+    font-size: 18px;
+    width: 1440px;
+    height: 900px;
+}
+
+.card {
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 325px;
+    height: 350px;
+    border-radius: 5%;
+}
+
+.card-bg{
+    background-image: url("images/bg-pattern-card.svg");
+    height: 35%;
+    border-top-left-radius: 5% 15%;
+    border-top-right-radius: 5% 15%;
+}
+.card-photo-container{
+    position: fixed;
+    top: 35%;
+    left: 46%;
+    -webkit-transform: translate(-35%, -46%);
+    transform: translate(-35%, -46%);
+    background-color: white;
+    border-radius: 100%;
+}
+
+.card-photo{
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.card-content{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+.card-name{
+    float: left;
+    font-family: kumbhsansBold;
+    font-weight: 700;
+}
+
+.card-age{
+    float: left;
+    font-family: kumbhsansRegular;
+    font-weight: 400;
+    margin-left: 10px;
+    color:hsl(0, 0%, 59%);
+}
+
+.card-city{
+    text-align: center;
+    font-family: kumbhsansRegular;
+    font-weight: 400;
+    font-size: 16px;
+    color:hsl(0, 0%, 59%);
+}
+
+.card-footer{
+    position: fixed;
+    top: 75%;
+    border-top: 1px hsl(0, 0%, 59%) solid;
+    width: 97%;
+    padding-left: 10px;
+}
+
+
+.media{
+    float: left;
+    width: 33%;
+    margin-top: 10px;
+}
+
+.media-1ln{
+    font-family: kumbhsansBold;
+    font-weight: 700;
+    position: relative;
+    left: 33px;
+}
+
+.followers{
+    font-family: kumbhsansRegular;
+    font-weight: 400;
+    font-size: 11px;
+    color: hsl(0, 0%, 59%);
+    margin-top: -15px;
+    text-align: center;
+    letter-spacing: 2px;
+    position: relative;
+    left: -5px;
+}
+
+.likes{
+    font-family: kumbhsansRegular;
+    font-weight: 400;
+    font-size: 11px;
+    color: hsl(0, 0%, 59%);
+    margin-top: -15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.photos{
+    font-family: kumbhsansRegular;
+    font-weight: 400;
+    font-size: 11px;
+    color: hsl(0, 0%, 59%);
+    margin-top: -15px;
+    text-align: center;
+    letter-spacing: 2px;
+    position: relative;
+    left: -5px;
+}
+
